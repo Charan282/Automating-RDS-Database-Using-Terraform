@@ -1,0 +1,9 @@
+variable "aws_access_key" {
+    description = "created access key in the console"
+}
+variable "aws_secret_key" {
+    description = "created secret key in the console"
+}
+variable "region" {
+    description = "region name where AWS console is in"
+}
